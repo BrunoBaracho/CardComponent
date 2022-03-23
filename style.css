@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 15px;
+  --back-ground: hsl(185, 75%, 39%);
+  --h2-list: hsl(229, 23%, 23%);
+  --p-list: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  --white: hsl(0, 0%, 100%);
+  --border-gray: hsl(0, 10%, 88%);
+}
+
+body {
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: top -900px left -700px, bottom -1100px right -550px;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: var(--back-ground);
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card2 {
+  background: var(--white);
+  text-align: center;
+  max-width: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.bgheader {
+  height: 150px;
+  width: 350px;
+  background-image: url("../images/bg-pattern-card.svg");
+  background-size: cover;
+}
+
+.perfilpic {
+  background-image: url(./images/image-victor.jpg);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: -50px auto -30px auto;
+  border: 5px solid var(--white);
+  display: block;
+}
+
+.perfildetalhes {
+  margin-top: 54px;
+  margin-bottom: -13rem;;
+  height: 250px;
+  line-height: 1.8rem;
+}
+
+.perfildetalhes .nome {
+  font-size: 1.4rem;
+  color: var(--h2-list);
+}
+
+.perfildetalhes .age {
+  color: var(--p-list);
+  font-weight: 300;
+}
+
+.perfildetalhes .city {
+  color: var(--p-list);
+  font-weight: 300;
+}
+
+.statuscontainer .stat{
+  display: block;
+  font-weight: 300;
+  font-size: .9rem;
+  color: var(--p-list);
+  letter-spacing: .1rem;
+}
+
+.statuscontainer {
+  padding-top: 22px;
+  padding-left: 40px;
+  border-top: 1px solid var(--border-gray);
+  margin-top: 22px;
+}
+
+section ul {
+  display: inline-block;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+
+}
+
+
+
+
+
+
+
